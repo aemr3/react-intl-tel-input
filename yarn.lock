@@ -20122,20 +20122,6 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^16.4.1":
-  version: 16.7.0
-  resolution: "react-dom@npm:16.7.0"
-  dependencies:
-    loose-envify: ^1.1.0
-    object-assign: ^4.1.1
-    prop-types: ^15.6.2
-    scheduler: ^0.12.0
-  peerDependencies:
-    react: ^16.0.0
-  checksum: f2d74dd451dc5307fd84c4b15655b8226b22d574ef695e6ade328c0f485b99bd2dbdac38d03b2727daaaeba09a6904acdb8cc52dab4de842b0617e98ff27215c
-  languageName: node
-  linkType: hard
-
 "react-dom@npm:^16.7.0":
   version: 16.14.0
   resolution: "react-dom@npm:16.14.0"
@@ -20147,6 +20133,18 @@ fsevents@~2.3.2:
   peerDependencies:
     react: ^16.14.0
   checksum: 5a5c49da0f106b2655a69f96c622c347febcd10532db391c262b26aec225b235357d9da1834103457683482ab1b229af7a50f6927a6b70e53150275e31785544
+  languageName: node
+  linkType: hard
+
+"react-dom@npm:^18.0.0":
+  version: 18.2.0
+  resolution: "react-dom@npm:18.2.0"
+  dependencies:
+    loose-envify: ^1.1.0
+    scheduler: ^0.23.0
+  peerDependencies:
+    react: ^18.2.0
+  checksum: 7d323310bea3a91be2965f9468d552f201b1c27891e45ddc2d6b8f717680c95a75ae0bc1e3f5cf41472446a2589a75aed4483aee8169287909fcd59ad149e8cc
   languageName: node
   linkType: hard
 
@@ -20254,8 +20252,8 @@ fsevents@~2.3.2:
     prettier: ^1.14.2
     prettier-eslint: ^9.0.1
     prop-types: ^15.6.1
-    react: ^16.4.1
-    react-dom: ^16.4.1
+    react: ^18.0.0
+    react-dom: ^18.0.0
     react-style-proptype: ^3.0.0
     rimraf: 2.5.4
     sass: ^1.37.4
@@ -20264,8 +20262,8 @@ fsevents@~2.3.2:
     typescript: ^4.4.3
     underscore.deferred: ^0.4.0
   peerDependencies:
-    react: ">15.4.2 <17.0.0"
-    react-dom: ">15.4.2 <17.0.0"
+    react: ^18.0.0
+    react-dom: ^18.0.0
   languageName: unknown
   linkType: soft
 
@@ -20388,18 +20386,6 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"react@npm:^16.4.1":
-  version: 16.7.0
-  resolution: "react@npm:16.7.0"
-  dependencies:
-    loose-envify: ^1.1.0
-    object-assign: ^4.1.1
-    prop-types: ^15.6.2
-    scheduler: ^0.12.0
-  checksum: f357afec242bb2b1f62a573f0369c893babd283483d154c7ada7ecba25c6cd9c4dc93477a6782d5b7dd79f148e819be255aea6f4e24c9fd3937d85c448147167
-  languageName: node
-  linkType: hard
-
 "react@npm:^16.7.0":
   version: 16.14.0
   resolution: "react@npm:16.14.0"
@@ -20408,6 +20394,15 @@ fsevents@~2.3.2:
     object-assign: ^4.1.1
     prop-types: ^15.6.2
   checksum: 8484f3ecb13414526f2a7412190575fc134da785c02695eb92bb6028c930bfe1c238d7be2a125088fec663cc7cda0a3623373c46807cf2c281f49c34b79881ac
+  languageName: node
+  linkType: hard
+
+"react@npm:^18.0.0":
+  version: 18.2.0
+  resolution: "react@npm:18.2.0"
+  dependencies:
+    loose-envify: ^1.1.0
+  checksum: 88e38092da8839b830cda6feef2e8505dec8ace60579e46aa5490fc3dc9bba0bd50336507dc166f43e3afc1c42939c09fe33b25fae889d6f402721dcd78fca1b
   languageName: node
   linkType: hard
 
@@ -21703,6 +21698,15 @@ resolve@^1.10.0:
     loose-envify: ^1.1.0
     object-assign: ^4.1.1
   checksum: 73e185a59e2ff5aa3609f5b9cb97ddd376f89e1610579d29939d952411ca6eb7a24907a4ea4556569dacb931467a1a4a56d94fe809ef713aa76748642cd96a6c
+  languageName: node
+  linkType: hard
+
+"scheduler@npm:^0.23.0":
+  version: 0.23.0
+  resolution: "scheduler@npm:0.23.0"
+  dependencies:
+    loose-envify: ^1.1.0
+  checksum: d79192eeaa12abef860c195ea45d37cbf2bbf5f66e3c4dcd16f54a7da53b17788a70d109ee3d3dde1a0fd50e6a8fc171f4300356c5aee4fc0171de526bf35f8a
   languageName: node
   linkType: hard
 
